@@ -97,6 +97,15 @@
     a.prev:hover,a.next:hover {
         opacity:1;
     }
+
+    .btn {
+        background: #232400;
+        color: white;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        margin: 1rem;
+    }
+
     .prev {
         left:0;
         background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -200px 25px;
