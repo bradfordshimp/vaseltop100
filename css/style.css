@@ -187,6 +187,8 @@ img {
     margin: auto;
 }
 
+
+
 h1, h2 {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
@@ -196,11 +198,13 @@ h1, h2 {
     height: 10vh;
     color: white;
     font-weight: 100;
+    text-align: center;
 }
 
 .offleft {
     width: 100px;
     margin-left: -100px;
+    font-family: 'Overpass', sans-serif;
 }
 
 .prev {
