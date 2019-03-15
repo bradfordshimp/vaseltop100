@@ -108,6 +108,16 @@ a.prev:hover, a.next:hover {
     opacity: 1;
 }
 
+
+
+.align-center {
+    align-items: center;
+}
+
+.bg-dark {
+    background: rgb(0, 0, 0, 0.6);
+}
+
 .border {
     border: 5px solid black;
 }
@@ -155,7 +165,9 @@ a.prev:hover, a.next:hover {
 }
 
 
-
+.justify-center {
+    justify-content: center;
+}
 
 
 /* img {
@@ -187,7 +199,10 @@ img {
     margin: auto;
 }
 
+.img-small {
+    height: 35px;
 
+}
 
 h1, h2 {
     font-family: 'Playfair Display', serif;
@@ -205,6 +220,19 @@ h1, h2 {
     width: 100px;
     margin-left: -100px;
     font-family: 'Overpass', sans-serif;
+    
+}
+
+.offright {
+    width: 125px;
+    font-family: 'Overpass', sans-serif;
+    margin-right: -125px;
+    text-align: center;
+    height: 10vh;
+}
+
+.pad-slight {
+    padding: 3px;
 }
 
 .prev {
@@ -232,4 +260,9 @@ h1, h2 {
 .slider {
     height: 100vh;
     position: relative;
+}
+
+.text-white {
+    color: white;
+    text-decoration: none;
 }
