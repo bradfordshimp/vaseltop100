@@ -91,6 +91,9 @@ font-family: 'Playfair Display', serif;*/
         0%  { left: 0px; }
         100% { left: -1200px; }
     }*/
+a {
+    font-family: 'Overpass', sans-serif;
+}
 
 a.prev, a.next {
     height: 91px;
@@ -141,6 +144,11 @@ a.prev:hover, a.next:hover {
     align-items: center;
 }
 
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -195,7 +203,7 @@ a.prev:hover, a.next:hover {
 }
 
 img {
-    height: 90vh;
+    height: 80vh;
     margin: auto;
 }
 
@@ -207,13 +215,17 @@ img {
 h1, h2 {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
-    margin: auto;
-    padding-right: 25px;
+    /*margin: auto;*/
+    /*padding-right: 25px;*/
     background: rgb(0, 0, 0, 0.6);
     height: 10vh;
     color: white;
     font-weight: 100;
-    text-align: center;
+    /*text-align: center;*/
+}
+
+.margin-right {
+    margin-right: 20px;
 }
 
 .offleft {
@@ -260,6 +272,10 @@ h1, h2 {
 .slider {
     height: 100vh;
     position: relative;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .text-white {
